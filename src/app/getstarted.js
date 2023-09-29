@@ -1,34 +1,34 @@
 import React from "react";
-import img1 from "../assets/img1.avif";
+import comp from "../assets/comp.png"
+import But from "./button";
 const Getstarted = () => {
   return (
     <>
-      <div className="flex flex-row mt-36 justify-center  ">
-        <div className="text-5.5xl font-medium ml-28     pl-18 ">
-          <strong className="text-dpur  ">Elevate Your Code with</strong>
-          <span> </span>
-          <strong className="grad text-transparent bg-clip-text ">
+      <div className="flex flex-row mt-32 justify-center   ">
+        <div className="text-5.5xl font-medium ml-28  w-96   pl-18 ">
+          <p className="text-white font-extrabold break-words leading-tight ">Elevate Your Code with</p>
+          <span mb-0> </span>
+          <p className="grad text-transparent leading-tight mt-0 font-extrabold bg-clip-text bg-[#F1A22B]">
             Seamless
-          </strong>
+          </p>
           <span> </span>
-          <strong className="grad text-transparent bg-clip-text">
-            Collaboration.
-          </strong>
-          <p className="text-base font-light pr-20 kl">
-            Are you ready to bring your ideas to life? Start by signing up and
-            immerse yourself in a voyage of innovation, seamless collaboration,
-            and coding mastery. Welcome to the future of collaborative coding at
-            CodeWeave!
+          <p className="grad text-transparent font-extrabold leading-tight bg-clip-text bg-[#F1A22B]">
+            Collaboration
+          </p>
+          <p className="text-base font-normal pr-20  text-white">
+            Start building instantly or sign up to save your progress for more than 24 hours
           </p>
         </div>
-        <img src={img1} className="" />
+        <img src={comp} className="pl-12" />
       </div>
-      <button
-        type="submit"
-        className="text-base bg-white rounded-3xl pt-3 pb-3 pl-4 pr-4 mt-4 mb-4 text-center ml-24 font-bold box  "
-      >
-        Get Started →
-      </button>
+      <div className="flex flex-row mt-14 ml-28">
+      <div className="bg-[#8E8CDA] text-white max-w-max text-base rounded-3xl pt-[.7rem] pb-[.7rem] pl-14 pr-14 mt-4 mb-4 text-center ml-24 font-semibold box">
+      <But val="BUILD" />
+      </div>
+      <div className="text-white border-[#88D0D1] border-solid border-2 max-w-max text-base rounded-3xl pt-[.7rem] pb-[.7rem] pl-12 pr-12 mt-4 mb-4 text-center ml-24 font-medium box">
+      <But val="SIGN UP" />
+      </div>
+      </div>
     </>
   );
 };

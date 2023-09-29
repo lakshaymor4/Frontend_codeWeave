@@ -2,27 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  font-family: Inter;
+font-family: 'Outfit', sans-serif;
 }
 .weave,
 .kl {
   font-family: Space Mono;
 }
-.kl {
-  color: #4d3c77;
+#hg{
+  display: none;
 }
-.grad {
-  background-image: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
-}
-.gs {
-  background-image:url("assets/strip.jpg"),url("./assets/bg2.jpeg");
-  background-repeat: no-repeat;
-  background-size: 79em 4.5em , cover;
-  
-}
-.box {
-  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 1);
-}
-.b{
-  background-color: rgba(0, 0, 0, .6);
-}
+
+
+
+
