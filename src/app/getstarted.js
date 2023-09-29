@@ -23,10 +23,20 @@ const Getstarted = () => {
       </div>
       <div className="flex flex-row mt-14 ml-28">
       <div className="bg-[#8E8CDA] text-white max-w-max text-base rounded-3xl pt-[.7rem] pb-[.7rem] pl-14 pr-14 mt-4 mb-4 text-center ml-24 font-semibold box">
-      <But val="BUILD" />
+      <button
+        type="submit"
+        id="bu"
+      >
+     <a href="/editor">BUILD</a>
+      </button>
       </div>
       <div className="text-white border-[#88D0D1] border-solid border-2 max-w-max text-base rounded-3xl pt-[.7rem] pb-[.7rem] pl-12 pr-12 mt-4 mb-4 text-center ml-24 font-medium box">
-      <But val="SIGN UP" />
+      <button
+        type="submit"
+        id="bu"
+      >
+     <a href="/sign">SIGN UP </a>
+      </button>
       </div>
       </div>
     </>

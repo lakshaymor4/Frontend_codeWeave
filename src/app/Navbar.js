@@ -11,14 +11,14 @@ const Navbar = () => {
           <p className="pl-2 text-white weave font-bold ">codeᨖeave</p>
         </div>
         <div className="text-base font-bold mt-2">
-          <a href="/home" className="no-underline pr-8">
+          <a href="/" className="no-underline pr-8">
             Home
           </a>
           <a href="/about" className="no-underline pr-8">
             About
           </a>
           
-            <a href="/signup" className="no-underline">
+            <a href="/sign" className="no-underline">
               Sign Up
             </a>
       
